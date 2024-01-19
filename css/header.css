@@ -1,0 +1,56 @@
+.bg-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header{
+   align-items: center;
+}
+
+.logomarca{
+   max-width: 100%;
+   margin-left: 3rem;   
+}
+
+.header-menu-itens {   
+   font: 500 1rem/1.5rem "Poppins", sans-serif;
+   display: flex;
+   flex-wrap: wrap;         
+   text-transform: uppercase; 
+   margin-right: 3rem;       
+}
+
+.header-menu-itens a {   
+   color: #FFEAE5;
+   text-decoration: none;  
+   padding: 10px 20px;  
+   display: block;      
+}
+
+ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;   
+}
+
+.banner-titulo-principal{      
+   display: flex; 
+   justify-content: center;
+   font: 400 2rem/2rem "Poppins", sans-serif;  
+   font-family: Poppins;
+   color: #FFD0CC;   
+   text-transform: capitalize; 
+   margin-top: 4rem; 
+   margin-bottom: 0.5rem; 
+}
+
+.banner-subtitulo-principal{
+   display: flex; 
+   justify-content: center;
+   font: 400 1rem/1.5rem "Poppins", sans-serif;
+   letter-spacing: 1px;
+   text-transform: capitalize;
+   color: #FFD0CC;  
+   margin: 0px;    
+}

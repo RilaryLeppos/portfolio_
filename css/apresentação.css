@@ -1,0 +1,42 @@
+.apresentaçao{
+   display: grid;
+   grid-template-columns: 1fr 2fr;   
+   gap: 7rem;   
+}
+
+.apresentaçao-foto-perfil{ 
+   max-width: 380px;  
+   display: block;     
+}
+
+.apresentacao-titulo{   
+   position: relative;  
+   font: 600 2.5rem/3.75rem "Poppins", sans-serif;   
+   color: #E5A1A1;     
+   letter-spacing: 0.48px;  
+   text-align:end;   
+   margin-bottom: 1.25rem;    
+}
+
+.apresentacao-titulo::before{
+   content:"";
+   position: absolute; 
+   margin-top: 2rem;
+   left: -0.1rem;
+   max-width: 100%;
+   width: 1.5rem;
+   height: 0.5rem;
+   background-color: #802626;
+   border-radius: 5px;      
+}
+
+.apresentacao-texto{
+   font: 400 1.1rem/1.5rem "Merriweather", serif;
+   color: #E6E6E6;
+   text-align: end;   
+}
+
+.apresentacao-texto span{
+   color: #FFEAE5;
+   font-weight: 700;    
+}

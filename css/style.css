@@ -1,0 +1,25 @@
+@import url(apresentação.css);
+@import url(contato.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(formação.css);
+
+.container{
+   max-width: 90rem;
+   margin: 5rem 6rem 5rem 6rem;   
+}
+
+body{
+   display: grid;
+   margin: 0px;
+   background-color: #333333;
+}
+
+body, h1, h2, h3, p {
+   margin: 0px;    
+   padding: 0px;  
+}
+
+span {
+   color: #B25959;  
+ }

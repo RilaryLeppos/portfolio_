@@ -1,0 +1,67 @@
+.formacao-div{
+   display: grid;
+   grid-template-columns: 2fr 1fr ;
+   position: relative; 
+   gap: 8rem;    
+}
+
+.formacao-div::before{
+   content:"";
+   position: absolute; 
+   max-width: 100%;
+   width: 56rem;
+   height: 0.2rem;
+   background-color: #FFEAE5;
+   border-radius: 5px;   
+}
+
+.formacao {
+   grid-column: 2;
+   width: 25rem;      
+   font: 500 6rem/9rem "Poppins", sans-serif;   
+   text-transform: uppercase;   
+   color: #F2BBBB;
+   margin: 4rem 0 4rem 0;
+   word-wrap: break-word;   
+   position: relative;   
+}
+
+.formacao-cursos{
+   grid-row: 1;   
+   align-self: center;   
+   justify-self: center;
+}
+
+.titulo-formacao{
+   font: 700 1.25/1.8rem "Merriweather", serif;
+   letter-spacing: 0.40px;
+   color: #CCCCCC;
+   font-size: 1.25rem;
+   line-height: 1.8rem;
+   text-transform: uppercase;
+   position: relative;   
+}
+
+.titulo-formacao::before{
+   content:"";
+   position: absolute;  
+   left: -1.75rem;
+   top: 0.6rem;   
+   width: 1.5rem;
+   height: 0.4rem;
+   background-color: #CC7A7A;
+   border-radius: 2px; 
+}
+
+.curso-formacao {
+   font: 500 1.25rem/1.8rem "Merriweather", serif;
+   text-transform: capitalize;
+   color: #E6E6E6;
+}
+
+.instituicao-formacao{
+   font: 400 1.25rem/1.8rem "Merriweather", serif;
+   text-transform: capitalize;
+   color: #E6E6E6;
+}
+
