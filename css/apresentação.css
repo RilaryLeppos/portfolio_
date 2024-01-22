@@ -1,7 +1,6 @@
 .apresentaçao{
    display: grid;
-   grid-template-columns: 1fr 2fr;   
-   gap: 7rem;   
+   grid-template-columns: 1fr 1fr;   
 }
 
 .apresentaçao-foto-perfil{ 
@@ -33,7 +32,7 @@
 .apresentacao-texto{
    font: 400 1.1rem/1.5rem "Merriweather", serif;
    color: #E6E6E6;
-   text-align: end;   
+   text-align: start;   
 }
 
 .apresentacao-texto span{

@@ -28,6 +28,11 @@ header{
    display: block;      
 }
 
+.header-menu-itens a:hover{
+   color: #CC7A7A;
+   transition: 300ms;   
+}
+
 ul{
    list-style: none;
    margin: 0px;
