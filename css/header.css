@@ -1,31 +1,21 @@
 .bg-header{
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    align-items: center;
-}
-
-header{
-   align-items: center;
-}
-
-.logomarca{
-   max-width: 100%;
-   margin-left: 3rem;   
 }
 
 .header-menu-itens {   
    font: 500 1rem/1.5rem "Poppins", sans-serif;
    display: flex;
    flex-wrap: wrap;         
-   text-transform: uppercase; 
-   margin-right: 3rem;       
+   text-transform: uppercase;       
 }
 
 .header-menu-itens a {   
    color: #FFEAE5;
    text-decoration: none;  
    padding: 10px 20px;  
-   display: block;      
+   display: flex;   
 }
 
 .header-menu-itens a:hover{
@@ -46,8 +36,7 @@ ul{
    font-family: Poppins;
    color: #FFD0CC;   
    text-transform: capitalize; 
-   margin-top: 4rem; 
-   margin-bottom: 0.5rem; 
+   margin: 4rem 0 0.5rem 0;
 }
 
 .banner-subtitulo-principal{

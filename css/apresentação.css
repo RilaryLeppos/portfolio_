@@ -1,6 +1,7 @@
 .apresentaçao{
    display: grid;
-   grid-template-columns: 1fr 1fr;   
+   grid-template-columns: 1fr 1fr; 
+   gap: 5rem;  
 }
 
 .apresentaçao-foto-perfil{ 
@@ -12,17 +13,14 @@
    position: relative;  
    font: 600 2.5rem/3.75rem "Poppins", sans-serif;   
    color: #E5A1A1;     
-   letter-spacing: 0.48px;  
-   text-align:end;   
+   letter-spacing: 0.48px;     
    margin-bottom: 1.25rem;    
 }
 
 .apresentacao-titulo::before{
    content:"";
-   position: absolute; 
-   margin-top: 2rem;
-   left: -0.1rem;
-   max-width: 100%;
+   display: block;
+   position: absolute;    
    width: 1.5rem;
    height: 0.5rem;
    background-color: #802626;
@@ -30,7 +28,7 @@
 }
 
 .apresentacao-texto{
-   font: 400 1.1rem/1.5rem "Merriweather", serif;
+   font: 300 1.1rem/1.5rem "Merriweather", serif;
    color: #E6E6E6;
    text-align: start;   
 }
