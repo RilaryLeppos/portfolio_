@@ -19,9 +19,10 @@ scrollPage();
 const animationScroll = document.querySelectorAll('.js-scroll');
 
 if(animationScroll.length) {
-   const windowMetade = window.innerHeight * 0.6;
 
+   const windowMetade = window.innerHeight * 0.6;
    function animaScroll() {
+
      animationScroll.forEach((a) => {
        const sectionTop = a.getBoundingClientRect().top;
        const isSectionVisible = (sectionTop - windowMetade) < 0;
