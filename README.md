@@ -1,4 +1,8 @@
-<h2 align="center"> Portfólio Profissional 🌹</h2>
-<p align="center">Desenvolvimento de um site que tem como objetivo promover a minha apresentação pessoal de forma digital. <br>Neste portfólio está anexado todos os meus projetos de desenvolvimento front-end e meus protótipos de designer. <br>Além de tudo, até uma breve descrição da minha formação acadêmica e meus dados para contato. </p>
+<h1 align="center"> Profissional Portfólio 🌹</h2>
+<p align="left">
+  Desenvolvimento de um site que tem como objetivo ser o meu Portfólio de Projetos de UI/UX e Codificação. 
+<br>Este Projeto foi desenvolvido para aplicar meus conhecimentos em HTML5, CSS3 e JavaScript ES6. 
+  <br>Assim como aplicar meus conhecimentos em Prototipageme experiencia do usuário. 
+</p>
 
-<h3 align="center">Para maiores Informações ou dúvidas, podem me contatar através do <a href="https://www.linkedin.com/in/rilaryleppos/">Meu Linkedin</a> ou  pelo <a href="mailto: leppos94@gmail.com">Meu Email</a></h3>
+<h4 align="center">Para maiores Informações ou dúvidas | <a href="https://www.linkedin.com/in/rilaryleppos/">Linkedin</a>
