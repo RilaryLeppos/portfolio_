@@ -5,6 +5,7 @@
 
 #
 <h4>Link da Homepage | https://rilaryleppos.github.io/portfolio_/
+<h4>Link do Design no Pinterest | https://pin.it/4ZHErIB8d</h4>
   
 #
 <h4 align='center'>Para maiores Informações ou dúvidas | <a href="https://www.linkedin.com/in/rilaryleppos/">Linkedin</a></h4>
