@@ -36,17 +36,18 @@
 }
 
 .contatos img{
-   width: 71px;
-   height: 84px; 
+   max-width: 75%; 
+   
 }
 
 .dados p{
-   font: 400 1.8rem/3rem "Merriweather",serif;
+   font: 400 1.5rem/3rem "Merriweather",serif;
    color: #CCCCCC;
    letter-spacing: 0.60px;
-   position: relative;
    color: #ccc;
    display: flex;
    justify-content: center;
    margin-top: 3rem;  
+   border-top: 2px solid #F2BBBB;
+   padding-top: 20px;
 }

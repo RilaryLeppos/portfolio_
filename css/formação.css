@@ -33,11 +33,9 @@
 }
 
 .titulo-formacao{
-   font: 300 1.25/1.8rem "Merriweather", serif;
+   font: 300 1.4/1.8rem "Merriweather", serif;
    letter-spacing: 0.40px;
-   color: #CCCCCC;
-   font-size: 1.25rem;
-   line-height: 1.8rem;
+   color: #CCCCCC;   
    text-transform: uppercase;
    position: relative;   
 }
@@ -54,7 +52,7 @@
 } 
 
 .btn {
-   font: 400 1.25rem/1.8rem "Merriweather", serif;
+   font: 400 1rem/1.8rem "Merriweather", serif;
    text-transform: uppercase;
    color: #E6E6E6;
    padding: 5px 10px;
@@ -69,14 +67,8 @@
    transition: 300ms;
 }
 
-.curso-formacao {
-   font: 300 1.25rem/1.8rem "Merriweather", serif;
-   text-transform: capitalize;
-   color: #E6E6E6;
-}
-
-.instituicao-formacao{
-   font: 300 1.25rem/1.8rem "Merriweather", serif;
+.curso-formacao, .instituicao-formacao {
+   font: 300 1.2rem/1.7rem "Merriweather", serif;
    text-transform: capitalize;
    color: #E6E6E6;
 }
