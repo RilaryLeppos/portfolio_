@@ -1,9 +1,31 @@
+.footer div{
+   display: flex;
+   justify-content: center;
+   margin: 0 0 40px 0;   
+}
+
 .footer p {
-   display: flex;   
-   justify-content: center; 
+   display: flex;
+   justify-content: center;
    margin: 10px 0 10px 0;
    color: #FFEAE5;
    font: 300 1rem/1.5rem "Poppins", sans-serif;
-   letter-spacing: 0.5px;  
+   letter-spacing: 0.5px;
 }
 
+.btn-footer {
+   font: 400 1rem/1.8rem "Merriweather", serif;
+   color: #E6E6E6;
+   padding: 5px 10px;
+   text-decoration: none;
+   text-align: center;
+   background-color: #B25959;
+   border-radius: 5px;
+   display: inline-block;
+   margin: 0 auto;
+}
+
+.btn-footer:hover {
+   color: #E5A1A1;
+   transition: 300ms;
+}
